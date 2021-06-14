@@ -1,0 +1,52 @@
+body {color:rgb(12, 10, 41); background-color:rgb(245, 230, 219); 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+h1 {font-style: oblique; font-size:35px; color:cornsilk; }
+h2 {font-size: 30px}
+p {font-style: normal; font-size: 15px;}
+a {text-decoration: none; color: lightgoldenrodyellow;}
+.image {border-color: rgb(199, 66, 66); border-style: dotted; border-radius: 20px;}
+div {
+    width:inherit; 
+    height: 130px;
+    border-width: 5px;
+    background-color: rgb(54, 104, 101);
+    border-style:dotted; border-color: rgb(35, 68, 46);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;}
+
+    span {display: block;
+    background:rgb(12, 10, 41); 
+    color:rgb(245, 230, 219);
+    text-align: center; 
+margin: 2px 15px 2px 15px;
+padding:3px }
+    li {font-style: normal; font-size: 15px; list-style-type:none; display:inline; color: lightgoldenrodyellow;}
+
+    .div {width: inherit;
+        height: inherit;
+        background-color: rgb(240, 184, 184);
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+    border-style:0px; 
+    
+}
+.block {display:ruby-base-container; text-align: match-parent; margin: 15px; block-size: 50px 100px;}
+
+
+.image2 {border-color: rgb(199, 66, 66); border-style: dotted; border-radius: 100px 10px; margin:10px}
+
+    #div {border-color: black; border-width: 2px; border-style: solid; text-align: center; 
+        margin: 2px 15px 2px 15px;
+        padding:3px}
+
+
+@media (min-width: 1024px)
+{
+
+h1 {font-size: 40px;}
+h2 {font-size: 30px}
+h3 {font-size: 25px}
+p {font-size:20px }}
